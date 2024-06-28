@@ -1,0 +1,45 @@
+.listIcon{
+    height: 2.5rem;
+    width: 2.5rem;
+
+}
+/* .list-group{
+    text-align: justify;
+    width: 100%;
+}
+.list-group-item{
+ 
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.list-group-item img{
+    margin-right: 2rem;
+} */
+.h2{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: "popper";
+}
+.h3{
+    font-family: "popper";
+}
+
+.h5{
+    font-family: auto;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid white;
+    font-size: large;
+    font-weight: 600;
+    font-family: "popper";
+    padding: .3rem;
+}
+.row{
+    margin: auto;
+
+    /* width: 100%; */
+}

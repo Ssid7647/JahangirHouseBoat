@@ -1,0 +1,25 @@
+.galleryImage {
+  width: 100%;
+  height: 70vh;
+}
+
+.galleryLandscape {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.galleryPotrait {
+  display: none;
+}
+
+@media screen and (max-width: 520px) {
+  .galleryLandscape {
+    display: none;
+  }
+  .galleryPotrait {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

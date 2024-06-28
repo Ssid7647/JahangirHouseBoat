@@ -1,0 +1,114 @@
+.IntroImage {
+  /* max-width: 100%; */
+  /* height: auto; */
+  width: 100vw;
+  height: 80vh;
+}
+.potrait {
+  display: none;
+}
+
+.IntroLogo {
+  width: auto;
+  height: 1vh;
+}
+.carousel-caption {
+  position: absolute;
+  /* right: 15%; */
+  top: 6vh;
+  left: 5vw;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #1027d2;
+  text-align: center;
+}
+.carousel-control-next {
+  display: none;
+}
+.carousel-control-prev {
+  display: none;
+}
+
+/* .introTitle {
+  color: hsla(0, 0%, 0%, 0);
+  perspective: 80px;
+  outline: none;
+} */
+
+.flash {
+  /* display: inline-block; */
+  text-shadow: #bbb 0 0 1px, #fff 0 -1px 2px, #fff 0 -3px 2px,
+    rgba(0, 0, 0, 0.8) 0 30px 25px;
+  transition: margin-left 0.3s cubic-bezier(0, 1, 0, 1);
+}
+
+.flashText {
+  color: darkgrey;
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(1.1) translate(-50%, -50%);
+  font-size: 3em;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+    1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+    1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+}
+
+.sandwich {
+  height: 8vh;
+  width: auto;
+  object-fit: cover;
+}
+.mobLogo {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+@media screen and (max-width: 520px) {
+  .carousel-caption {
+    position: absolute;
+    /* right: 15%; */
+    top: 0.5px;
+    /* left: 5vw; */
+    /* padding-top: 1.25rem;
+    padding-bottom: 1.25rem; */
+    color: #1027d2;
+    text-align: center;
+  }
+  .mobLogo {
+    width: 6rem;
+    height: 6rem;
+  }
+  .IntroImage {
+    width: 100%;
+    height: 100%;
+  }
+  .sandwich {
+    height: 6vh;
+    width: auto;
+    object-fit: cover;
+    /* left: "1vw"; */
+
+  }
+  .landscape {
+    display: none;
+  }
+  .IntroLogo {
+    display: none;
+  }
+  .introTitle {
+    display: none;
+  }
+  .slang {
+    display: none;
+  }
+
+  .potrait {
+    display: flex;
+    height: 90vh;
+    width: 100%;
+  }
+}
