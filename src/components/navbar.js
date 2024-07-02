@@ -21,6 +21,7 @@ import mobLogo from "../assets/jhb-high-resolution-logo-transparent.png"
 import videoLandscape from "../assets/video/landscape.mp4"
 import videoPortrait from "../assets/video/potrait.mp4"
 
+
 const NavbarComponent = () => {
 
     const [showMenu, setShowMenu] = React.useState(false)
@@ -37,27 +38,31 @@ const NavbarComponent = () => {
             </video>
             <div className="navbar-content ">
                 <div className="landscape  ">
+
                     <div className=" d-flex justify-content-between  align-items-center ">
-                        <Image src={logo} className="logo" />
-                        <div className="d-flex flex-column justify-content-center  align-items-start">
+                        <Image src={mobLogo} className="startLogo" />
+                        {/* <div className="d-flex flex-column justify-content-center  align-items-start">
                             <span className="infoData" ><IoCallOutline className="icons" /> +91 8491999831 </span>
                             <span className="infoData"><IoMailOutline className="icons" /> newjahangir999@gmail.com </span>
 
-                        </div>
+                        </div> */}
                     </div>
 
-                    <div className="infoData">
-                        <Link activeClass="active" to="home" spy={true} smooth={true} offset={-50} duration={100} className="desktopMenuListitem">Home</Link>
+
+
+                    <div className="infoData m-5">
+                        {/* <Link activeClass="active" to="home" spy={true} smooth={true} offset={-50} duration={100} className="desktopMenuListitem">Home</Link> */}
                         <Link activeClass="active" to="about" spy={true} smooth={true} offset={-100} duration={100} className="desktopMenuListitem">About</Link>
-                        <Image src={jahangirLogo} alt="logo" className="jahangirlogo  ms-5 me-5 m-2 " />
                         <Link activeClass="active" to="amenities" spy={true} smooth={true} offset={-50} duration={100} className="desktopMenuListitem">Amenities</Link>
+
+                        <Image src={jahangirLogo} alt="logo" className="jahangirlogo  ms-5 me-5 m-2 " />
                         <Link activeClass="active" to="gallery" spy={true} smooth={true} offset={-100} duration={100} className="desktopMenuListitem">Gallery</Link>
                         <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={100} className="desktopMenuListitem">Contact</Link>
 
                     </div>
 
-                    <div className=" d-flex justify-content-between  align-items-center ">
-                        {/* <Image src={logo} className="logo" /> */}
+                    {/* <div className=" d-flex justify-content-between  align-items-center ">
+                     
                         <CiLocationOn className="icons m-2" />
                         <div className="d-flex flex-column justify-content-center  align-items-start infoData ">
 
@@ -65,6 +70,14 @@ const NavbarComponent = () => {
                             <span>Ghat -1</span>
                             <span> Dal lake,Srinagar,J&K</span>
                         </div>
+                    </div> */}
+                    <div className=" d-flex justify-content-between  align-items-center ">
+                        <Image src={logo} className="logo" />
+                        {/* <div className="d-flex flex-column justify-content-center  align-items-start">
+                            <span className="infoData" ><IoCallOutline className="icons" /> +91 8491999831 </span>
+                            <span className="infoData"><IoMailOutline className="icons" /> newjahangir999@gmail.com </span>
+
+                        </div> */}
                     </div>
                 </div>
 
