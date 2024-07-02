@@ -12,7 +12,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Map from "./map";
-
+import { FaFacebook } from "react-icons/fa";
+import fb from "../assets/fb.jfif"
+import insta from "../assets/insta.jfif"
 
 
 export const Contact = () => {
@@ -100,6 +102,15 @@ export const Contact = () => {
                             <button type="submit" className="btn btn btn-secondary btn-lg d-inline-flex focus-ring p-2 m-4 text-decoration-none border-secondary rounded-2" value="send"  >Submit</button>
                         </form>
 
+                    </div>
+                    <div className="d-flex justify-content-between  mb-5">
+                        <a href="https://www.facebook.com/profile.php?id=61560520902291" target="_blank" >
+                            <Image src={fb} fluid className="img-fluid images" />
+                            {/* <FaFacebook /> */}
+                        </a>
+                        <a href="https://www.instagram.com/newjahangir999/" target="_blank">
+                            <Image fluid src={insta} className="img-fluid images" />
+                        </a>
                     </div>
                 </div >
 

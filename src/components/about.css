@@ -43,3 +43,14 @@
 
     /* width: 100%; */
 }
+
+#about{
+    height: auto;
+}
+@media screen and (max-width: 520px) {
+   #about{
+    height:60vh;
+    overflow: scroll;
+    
+   }
+  }

@@ -26,7 +26,7 @@ export const Intro = () => {
                     <Carousel.Item>
 
                         <div className="landscape">
-                            <Image src={houseBoat} fluid className="IntroImage"  />
+                            <Image src={houseBoat} fluid className="IntroImage" />
                             <Carousel.Caption className="IntroCaption">
                                 {/* <div className="d-flex flex-column  flex-wrap align-content-start " >
                                     <div >
@@ -63,7 +63,7 @@ export const Intro = () => {
                                         <Image src={mobLogo} className="mobLogo" />
                                     </div>
 
-                                    <div className="align-item-end">
+                                    <div >
                                         <Image src={menu} alt="logo" className="sandwich" onClick={() => setShowMenu(true)} />
                                         <div className="navMenu" style={{ "display": showMenu ? "flex" : "none" }}>
 
