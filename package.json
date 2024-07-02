@@ -2,7 +2,7 @@
   "name": "jahangir",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Ssid7647/jahangirHouseBoat.git",
+  "homepage": "https://ssid7647.github.io/jahangirHouseBoat/",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@react-google-maps/api": "^2.19.3",
