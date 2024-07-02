@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jahangirHouseBoat/static/css/main.8c8b016a.css",
-    "main.js": "/jahangirHouseBoat/static/js/main.d806fe00.js",
+    "main.css": "/jahangirHouseBoat/static/css/main.904b4cb2.css",
+    "main.js": "/jahangirHouseBoat/static/js/main.85c6ab0c.js",
     "static/js/453.03afb29e.chunk.js": "/jahangirHouseBoat/static/js/453.03afb29e.chunk.js",
     "static/media/video2.mp4": "/jahangirHouseBoat/static/media/video2.44f4630bec0fcf95788e.mp4",
     "static/media/video1.mp4": "/jahangirHouseBoat/static/media/video1.d916e534ac0b8ac7dfad.mp4",
@@ -38,12 +38,12 @@
     "static/media/shikara.jfif": "/jahangirHouseBoat/static/media/shikara.0c5f37720f3bcdb31699.jfif",
     "static/media/fb.jfif": "/jahangirHouseBoat/static/media/fb.ff26fa6f3c8e3ef1980d.jfif",
     "index.html": "/jahangirHouseBoat/index.html",
-    "main.8c8b016a.css.map": "/jahangirHouseBoat/static/css/main.8c8b016a.css.map",
-    "main.d806fe00.js.map": "/jahangirHouseBoat/static/js/main.d806fe00.js.map",
+    "main.904b4cb2.css.map": "/jahangirHouseBoat/static/css/main.904b4cb2.css.map",
+    "main.85c6ab0c.js.map": "/jahangirHouseBoat/static/js/main.85c6ab0c.js.map",
     "453.03afb29e.chunk.js.map": "/jahangirHouseBoat/static/js/453.03afb29e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c8b016a.css",
-    "static/js/main.d806fe00.js"
+    "static/css/main.904b4cb2.css",
+    "static/js/main.85c6ab0c.js"
   ]
 }
